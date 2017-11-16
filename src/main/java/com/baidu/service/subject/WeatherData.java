@@ -1,8 +1,9 @@
 package com.baidu.service.subject;
 
+import com.baidu.service.observer.Observer;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observer;
 
 /**
  * User: chanson-pro
@@ -32,8 +33,8 @@ public class WeatherData implements Subject{
     //通知观察者，相当于调用update（）方法
     public void notifyObserver() {
         for (Observer observer : observers) {
-            //observer.update();
-            observer.notify();
+            observer.update();
+            //observer.notify();
         }
     }
     //参数发生变化后，告诉所有观察者

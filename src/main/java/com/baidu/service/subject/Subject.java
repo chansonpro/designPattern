@@ -1,6 +1,7 @@
 package com.baidu.service.subject;
 
-import java.util.Observer;
+
+import com.baidu.service.observer.Observer;
 
 /**
  * User: chanson-pro

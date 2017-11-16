@@ -16,7 +16,7 @@ public class CurrentConditionsDisplay implements Observer,DisplayElement{
     //当前天气的显示公告
     public CurrentConditionsDisplay(WeatherData weatherData) {
         this.weatherData = weatherData;
-        this.weatherData.registerObserver((java.util.Observer) this);
+        this.weatherData.registerObserver(this);
     }
 
     public void display() {

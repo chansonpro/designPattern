@@ -15,7 +15,7 @@ public class ForecastDisplay implements Observer,DisplayElement{
 
     public ForecastDisplay(WeatherData weatherData) {
         this.weatherData = weatherData;
-        this.weatherData.registerObserver((java.util.Observer) this);
+        this.weatherData.registerObserver(this);
     }
 
     public void display() {
