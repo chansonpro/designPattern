@@ -1,4 +1,4 @@
-package com.baidu.service;
+package com.baidu.service.subject;
 
 import java.util.Observer;
 

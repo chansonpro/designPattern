@@ -1,4 +1,4 @@
-package com.baidu.service;
+package com.baidu.service.observer;
 
 /**
  * User: chanson-pro
